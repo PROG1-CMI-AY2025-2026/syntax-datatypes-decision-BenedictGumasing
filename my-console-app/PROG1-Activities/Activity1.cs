@@ -13,7 +13,7 @@ namespace MyConsoleApp
         {
             int age = 20;
             string name = "Anna'
-            bool isStudent = True;
+            bool isStudent = true;
 
             return $"Age: {age}, Name: {name}, Is Student: {isStudent}";
         }
