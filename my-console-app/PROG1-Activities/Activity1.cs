@@ -9,13 +9,13 @@ namespace MyConsoleApp
         // Check for red wiggly lines.
         // Check if the variable has an appropriate value based on its data type
 
-        public string GetVariableDataTypes()
+        public static void Main()
         {
             int age = 20;
-            string name = "Anna'
+            string name = "Anna";
             bool isStudent = true;
 
-            return $"Age: {age}, Name: {name}, Is Student: {isStudent}";
+            Console.WriteLine($"Age: {age}, Name: {name}, Is Student: {isStudent}");
         }
     }
 }
