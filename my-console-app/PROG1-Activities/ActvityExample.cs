@@ -44,3 +44,23 @@ public class Demo
 					
 		}
 }
+
+
+using System;
+
+class HelloWorld
+{
+	public static void Main()
+		{		
+			int myNum = 5;
+			int myNum2 = 7;
+			myNum += 10; //15
+		
+			Console.WriteLine(myNum > myNum2);
+			Console.WriteLine(myNum2 > myNum);
+			Console.WriteLine(myNum < myNum2);
+			Console.WriteLine(myNum == myNum2);
+			Console.WriteLine(myNum != myNum2);
+		}
+}
+	
