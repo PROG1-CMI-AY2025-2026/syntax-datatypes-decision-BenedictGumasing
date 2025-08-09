@@ -9,8 +9,19 @@ using System;
               bool isStudent = False;
               char myChar = 'H';
               name = "Dela Cruz";
+              double myDouble = 8.90;
             
               long longInteger = number;
+
+              myDouble = myNumber;
+
+              number++;
+
+              number--;
+            
+              number = Convert.ToInt32(myDouble);
+
+              int even = 13 % 4; //1
             
               const string myConst = "Hello";
             
