@@ -23,3 +23,24 @@ using System;
             
           )
     )
+
+
+    
+using System;
+
+public class Demo
+{
+	public static void Main()
+		{		
+			int myNum = 5;
+			myNum += 10; //15
+			
+			int myNum2 = 7;
+			myNum2 -= 2; //5
+			
+			Console.WriteLine("This is the value of myNum: " + myNum);
+			Console.WriteLine("This is the value of myNum2: " + myNum2);
+			Console.ReadKey();				  
+					
+		}
+}
