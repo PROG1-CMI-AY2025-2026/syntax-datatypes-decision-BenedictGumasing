@@ -63,4 +63,26 @@ class HelloWorld
 			Console.WriteLine(myNum != myNum2);
 		}
 }
+
+
+using System;
+
+class HelloWorld
+{
+	public static void Main()
+		{		
+			int gradeMidterm = 85;
+			int gradePrelim = 90;
+		
+			if (gradeMidterm > gradePrelim)
+			{
+				Console.WriteLine("Midterm is greater than prelim");
+		    }
+			else 
+			{
+				Console.WriteLine("Prelim is greater than midterm");
+			}
+		
+		}
+}
 	
