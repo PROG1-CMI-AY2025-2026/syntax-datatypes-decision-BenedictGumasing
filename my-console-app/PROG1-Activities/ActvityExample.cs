@@ -13,11 +13,7 @@ using System;
             
               long longInteger = number;
 
-              myDouble = myNumber;
-
-              number++;
-
-              number--;
+              myDouble = myNumber; 
             
               number = Convert.ToInt32(myDouble);
 
